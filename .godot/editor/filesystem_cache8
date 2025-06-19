@@ -1,0 +1,14 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1750358912
+icon.svg::CompressedTexture2D::2643696152073573764::1737411044::1745012978::1::::<><>::
+README.md::TextFile::-1::1737411075::0::1::::<><>::
+game.tscn::PackedScene::2250384083390363932::1750358912::0::1::::<><>::uid://cu7waas4mwdqv::::res://assets/GameBg.png
+::res://assets/::1750359662
+bgm_action_5.mp3::AudioStreamMP3::8953033805909387048::1750357625::1750357982::1::::<><>::
+element_red_diamond.png::CompressedTexture2D::555509016099920561::1750357625::1750357982::1::::<><>::
+explode.wav::AudioStreamWAV::1781690266774176860::1750357625::1750357982::1::::<><>::
+FTTBackground.png::CompressedTexture2D::3433607925656296506::1750359663::1750359673::1::::<><>::
+FuelThatTrainSprite.png::CompressedTexture2D::1382655908476793135::1750359334::1750359339::1::::<><>::
+GameBg.png::CompressedTexture2D::6244014131258636369::1750357625::1750357982::1::::<><>::
+paddleBlu.png::CompressedTexture2D::4925567267124313451::1750357625::1750357982::1::::<><>::
+spell1_0.wav::AudioStreamWAV::3145816973149109321::1750357625::1750357982::1::::<><>::

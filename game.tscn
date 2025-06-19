@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://7cdq5u1e42jw"]
+
+[ext_resource type="Texture2D" uid="uid://bo6jayevtvixu" path="res://assets/FTTBackground.png" id="1_xisnx"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_xisnx")
+centered = false
