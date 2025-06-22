@@ -1,14 +1,21 @@
-[gd_scene load_steps=5 format=3 uid="uid://7cdq5u1e42jw"]
+[gd_scene load_steps=7 format=3 uid="uid://7cdq5u1e42jw"]
 
 [ext_resource type="Texture2D" uid="uid://bo6jayevtvixu" path="res://assets/FTTBackground.png" id="1_0002a"]
 [ext_resource type="Script" path="res://Scenes/Game/Game.cs" id="1_pa321"]
 [ext_resource type="PackedScene" uid="uid://lmmiuqwjolrj" path="res://Scenes/Train/train.tscn" id="2_steuq"]
 [ext_resource type="PackedScene" uid="uid://clsnmc5pg8c3l" path="res://Scenes/Fuel/Fuel.tscn" id="3_hujo7"]
 
-[node name="Game" type="Node2D" node_paths=PackedStringArray("_fuel")]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ihwoq"]
+
+[sub_resource type="SystemFont" id="SystemFont_5j6pb"]
+
+[node name="Game" type="Node2D" node_paths=PackedStringArray("_spawnTimer", "_scoreLabel", "_missedFuelLabel", "_gameOverLabel")]
 script = ExtResource("1_pa321")
-_fuel = NodePath("Fuel")
 _fuelScene = ExtResource("3_hujo7")
+_spawnTimer = NodePath("Timer")
+_scoreLabel = NodePath("ScoreLabel")
+_missedFuelLabel = NodePath("MissedFuelLabel")
+_gameOverLabel = NodePath("GameOverLabel")
 
 [node name="Background" type="Sprite2D" parent="."]
 scale = Vector2(0.6, 0.6)
@@ -17,8 +24,41 @@ centered = false
 metadata/_edit_lock_ = true
 
 [node name="Train" parent="." instance=ExtResource("2_steuq")]
+material = SubResource("ShaderMaterial_ihwoq")
 position = Vector2(568, 482)
 scale = Vector2(1.01545, 0.978817)
 
-[node name="Fuel" parent="." instance=ExtResource("3_hujo7")]
-position = Vector2(550, 172)
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.5
+autostart = true
+
+[node name="ScoreLabel" type="Label" parent="."]
+custom_minimum_size = Vector2(24, 24)
+offset_left = 502.0
+offset_top = 530.0
+offset_right = 673.0
+offset_bottom = 633.0
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0.879068, 0.736483, 0.955139, 1)
+theme_override_fonts/font = SubResource("SystemFont_5j6pb")
+theme_override_font_sizes/font_size = 75
+text = "0000"
+
+[node name="MissedFuelLabel" type="Label" parent="."]
+offset_left = 1091.0
+offset_top = 534.0
+offset_right = 1260.0
+offset_bottom = 634.0
+theme_override_colors/font_color = Color(0.921569, 0, 0, 1)
+theme_override_font_sizes/font_size = 70
+text = "0
+"
+
+[node name="GameOverLabel" type="Label" parent="."]
+offset_left = 407.0
+offset_top = 199.0
+offset_right = 787.0
+offset_bottom = 394.0
+theme_override_colors/font_color = Color(0.956863, 0, 0, 1)
+theme_override_font_sizes/font_size = 70
+horizontal_alignment = 1

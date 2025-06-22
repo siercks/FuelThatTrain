@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FuelThatTrain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7211dd3bd174e55e91c937d4c39384a717504b40")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8db10bd144002f0d6637be5fa85f46d065183acf")]
 [assembly: System.Reflection.AssemblyProductAttribute("FuelThatTrain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FuelThatTrain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
+res://Scenes/Fuel/Fuel.cs
+res://Scenes/Train/Train.cs
+res://Scenes/Game/Game.cs
 res://Scenes/Game/game.tscn
 res://Scenes/Train/train.tscn
 res://Scenes/Fuel/Fuel.tscn
-res://Scenes/Game/Game.cs
-res://Scenes/Train/Train.cs
-res://Scenes/Fuel/Fuel.cs

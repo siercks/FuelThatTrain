@@ -3,9 +3,8 @@
 [ext_resource type="Script" path="res://Scenes/Train/Train.cs" id="1_1ve4c"]
 [ext_resource type="Texture2D" uid="uid://tx1e11fsae4f" path="res://assets/FuelThatTrainSprite.png" id="1_i0imq"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_s5dfg"]
-radius = 21.0
-height = 264.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x34hd"]
+size = Vector2(39, 236.364)
 
 [node name="Train" type="Area2D"]
 scale = Vector2(0.88, 1)
@@ -15,6 +14,6 @@ script = ExtResource("1_1ve4c")
 texture = ExtResource("1_i0imq")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(89, 7)
+position = Vector2(88.6363, 6.5)
 rotation = -1.5708
-shape = SubResource("CapsuleShape2D_s5dfg")
+shape = SubResource("RectangleShape2D_x34hd")
