@@ -1,5 +1,17 @@
-[gd_scene format=3 uid="uid://clsnmc5pg8c3l"]
+[gd_scene load_steps=4 format=3 uid="uid://clsnmc5pg8c3l"]
 
-[node name="Fuel" type="Node2D"]
+[ext_resource type="Script" path="res://Scenes/Fuel/Fuel.cs" id="1_e40b6"]
+[ext_resource type="Texture2D" uid="uid://bpbryia2xy4bx" path="res://assets/fuel_element.png" id="1_rhjht"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o71ub"]
+
+[node name="Fuel" type="Area2D"]
+script = ExtResource("1_e40b6")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_rhjht")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 0.785398
+scale = Vector2(1.65, 1.65)
+shape = SubResource("RectangleShape2D_o71ub")

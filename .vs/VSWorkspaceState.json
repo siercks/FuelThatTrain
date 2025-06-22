@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.godot"
+    "\\.godot",
+    "\\assets",
+    "\\Scenes",
+    "\\Scenes\\Fuel",
+    "\\Scenes\\Game",
+    "\\Scenes\\Train"
   ],
-  "SelectedNode": "\\.godot\\.gdignore",
+  "SelectedNode": "\\Scenes\\Train\\Train.cs",
   "PreviewInSolutionExplorer": false
 }

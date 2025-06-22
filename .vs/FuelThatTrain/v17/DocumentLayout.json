@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\siercks\\Documents\\GitHub\\FuelThatTrain\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\siercks\\Documents\\GitHub\\FuelThatTrain\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{DA7ACDC1-7570-4D5F-8A9F-BA8BCDC4F4E1}|FuelThatTrain.csproj|c:\\users\\siercks\\documents\\github\\fuelthattrain\\scenes\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA7ACDC1-7570-4D5F-8A9F-BA8BCDC4F4E1}|FuelThatTrain.csproj|solutionrelative:scenes\\game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA7ACDC1-7570-4D5F-8A9F-BA8BCDC4F4E1}|FuelThatTrain.csproj|c:\\users\\siercks\\documents\\github\\fuelthattrain\\scenes\\fuel\\fuel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA7ACDC1-7570-4D5F-8A9F-BA8BCDC4F4E1}|FuelThatTrain.csproj|solutionrelative:scenes\\fuel\\fuel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA7ACDC1-7570-4D5F-8A9F-BA8BCDC4F4E1}|FuelThatTrain.csproj|c:\\users\\siercks\\documents\\github\\fuelthattrain\\scenes\\train\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA7ACDC1-7570-4D5F-8A9F-BA8BCDC4F4E1}|FuelThatTrain.csproj|solutionrelative:scenes\\train\\train.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +35,46 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\siercks\\Documents\\GitHub\\FuelThatTrain\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\siercks\\Documents\\GitHub\\FuelThatTrain\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-01-20T21:11:04.139Z",
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\siercks\\Documents\\GitHub\\FuelThatTrain\\Scenes\\Game\\Game.cs",
+              "RelativeDocumentMoniker": "Scenes\\Game\\Game.cs",
+              "ToolTip": "C:\\Users\\siercks\\Documents\\GitHub\\FuelThatTrain\\Scenes\\Game\\Game.cs",
+              "RelativeToolTip": "Scenes\\Game\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T18:18:44.789Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Train.cs",
+              "DocumentMoniker": "C:\\Users\\siercks\\Documents\\GitHub\\FuelThatTrain\\Scenes\\Train\\Train.cs",
+              "RelativeDocumentMoniker": "Scenes\\Train\\Train.cs",
+              "ToolTip": "C:\\Users\\siercks\\Documents\\GitHub\\FuelThatTrain\\Scenes\\Train\\Train.cs",
+              "RelativeToolTip": "Scenes\\Train\\Train.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:26:45.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Fuel.cs",
+              "DocumentMoniker": "C:\\Users\\siercks\\Documents\\GitHub\\FuelThatTrain\\Scenes\\Fuel\\Fuel.cs",
+              "RelativeDocumentMoniker": "Scenes\\Fuel\\Fuel.cs",
+              "ToolTip": "C:\\Users\\siercks\\Documents\\GitHub\\FuelThatTrain\\Scenes\\Fuel\\Fuel.cs",
+              "RelativeToolTip": "Scenes\\Fuel\\Fuel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T17:47:57.269Z",
               "EditorCaption": ""
             }
           ]
