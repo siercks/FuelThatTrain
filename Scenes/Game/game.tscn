@@ -8,6 +8,7 @@
 [node name="Game" type="Node2D" node_paths=PackedStringArray("_fuel")]
 script = ExtResource("1_pa321")
 _fuel = NodePath("Fuel")
+_fuelScene = ExtResource("3_hujo7")
 
 [node name="Background" type="Sprite2D" parent="."]
 scale = Vector2(0.6, 0.6)
