@@ -1,1 +1,4 @@
-res://Train/train.tscn
+res://game.tscn
+res://Scenes/Game/game.tscn
+res://Scenes/Train/train.tscn
+res://Scenes/Fuel/Fuel.tscn

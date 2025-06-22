@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://7cdq5u1e42jw"]
+
+[ext_resource type="Texture2D" uid="uid://bo6jayevtvixu" path="res://assets/FTTBackground.png" id="1_0002a"]
+[ext_resource type="PackedScene" uid="uid://lmmiuqwjolrj" path="res://Scenes/Train/train.tscn" id="2_steuq"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_0002a")
+centered = false
+
+[node name="Train" parent="." instance=ExtResource("2_steuq")]
+position = Vector2(568, 482)

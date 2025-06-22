@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://lmmiuqwjolrj"]
+
+[ext_resource type="Texture2D" uid="uid://tx1e11fsae4f" path="res://assets/FuelThatTrainSprite.png" id="1_i0imq"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_s5dfg"]
+radius = 21.0
+height = 264.0
+
+[node name="Train" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_i0imq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(89, 7)
+rotation = -1.5708
+shape = SubResource("CapsuleShape2D_s5dfg")
